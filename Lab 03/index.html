@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bite &amp; Byte Café</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .promo-banner {
+            background-color: gold;
+            color: black;
+            text-align: center;
+            padding: 8px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="promo-banner">
+        Student Special: Show your ID and get 10% off every order!
+    </div>
+
+    <header id="main-header">
+        <h1>Bite &amp; Byte Café</h1>
+        <p id="main-tagline" class="tagline">"Where cravings meet code."</p>
+
+        <nav>
+            <a href="#welcome">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#notice">Notices</a>
+            <a href="#order">Order</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="welcome">
+            <h2 class="welcome-heading">Welcome to Our Café</h2>
+
+            <p>
+                We serve fresh, tasty food for hungry students and coders.
+                Grab a bite while you debug!
+                <span style="background-color: #ff6b6b; color: white; padding: 2px 8px;">NEW</span>
+            </p>
+
+            <p id="special-note" class="note-text">
+                Note: Our chef's special changes every Friday!
+            </p>
+
+            <p class="color-a color-b">
+                This sentence has two classes, so the later rule wins.
+            </p>
+
+            <p class="collapse-box box-one">Box One</p>
+            <p class="collapse-box box-two">Box Two</p>
+
+            <h3>Display Demo</h3>
+            <span class="block-demo">This span is displayed as a block.</span>
+            <div class="inline-demo">Inline div one</div>
+            <div class="inline-demo">Inline div two</div>
+            <p class="helper-msg">You cannot see this message.</p>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <h2>Our Menu</h2>
+
+            <div class="menu-container">
+
+                <div class="food-card">
+                    <img src="Pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Cheesy Pepperoni Slice</p>
+                    <p class="price">PKR 1,397</p>
+                    <a href="#order" class="order-btn">Order Now</a>
+                </div>
+
+                <div class="food-card">
+                    <img src="Burger.avif" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Classic Zinger Burger</p>
+                    <p class="price">PKR 1,117</p>
+                    <a href="#order" class="order-btn">Order Now</a>
+                </div>
+
+                <div class="food-card">
+                    <img src="Sandwich.jpg" alt="Sandwich">
+                    <h3>Sandwich</h3>
+                    <p>Grilled Club Sandwich</p>
+                    <p class="price">PKR 977</p>
+                    <a href="#order" class="order-btn">Order Now</a>
+                </div>
+
+                <div class="food-card">
+                    <img src="Pasta.avif" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Creamy Alfredo Pasta</p>
+                    <p class="price">PKR 1,537</p>
+                    <a href="#order" class="order-btn">Order Now</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="notice">
+            <h2>Notice Board</h2>
+            <div class="notice-board">
+                <p>The café opens at 8:00 AM and closes at 10:00 PM from Monday to Saturday.</p>
+                <p>Sunday timings are 10:00 AM to 6:00 PM.</p>
+                <p>Please keep the tables clean and return your trays after eating.</p>
+                <p>Free Wi-Fi is available for all customers. Ask the counter for the password.</p>
+                <p>Group orders of more than 10 people must be booked one day in advance.</p>
+                <p>Lost and found items are kept at the counter for 7 days only.</p>
+                <p>Our chef's special is announced every Friday on the board near the entrance.</p>
+                <p>We are always looking for student part-time staff. Ask the manager for details.</p>
+                <p>Thank you for choosing Bite &amp; Byte Café. We hope you enjoy your meal!</p>
+            </div>
+        </section>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <label>Your Name:</label><br>
+                <input type="text" placeholder="Enter your name"><br><br>
+
+                <label>Your Email:</label><br>
+                <input type="email" placeholder="Enter your email"><br><br>
+
+                <button type="submit" class="order-btn">Submit Order</button>
+            </form>
+        </section>
+
+    </div>
+
+</body>
+</html>
